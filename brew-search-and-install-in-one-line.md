@@ -58,7 +58,7 @@ font-firamono-nerd-font-mono
 (...)
 ```
 
-We can use `tr` to convert this output to a single line:
+We can use `tr` to convert this output to a whitespace-separated single line:
 
 ```
 brpro ➜  ~ brew cask search font | grep nerd | tr '\n' ' '
