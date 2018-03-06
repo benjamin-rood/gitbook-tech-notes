@@ -6,7 +6,6 @@ Yesterday I wanted to install all the Nerd Fonts not currently on my machine in 
 
 ```
 brpro ➜  ~ brew cask search font
-
 ==> Partial Matches
 birdfont                                      font-hack-nerd-font                           font-noto-sans-thaana
 dfontsplitter                                 font-hack-nerd-font-mono                      font-noto-sans-thai
@@ -59,7 +58,7 @@ font-firamono-nerd-font-mono
 (...)
 ```
 
- We can use `tr` to convert this output to a single line:
+We can use `tr` to convert this output to a single line:
 
 ```
 brpro ➜  ~ brew cask search font | grep nerd | tr '\n' ' '
@@ -72,7 +71,7 @@ Now we just need to pass the result to `brew install`:
 brew install $(brew cask search font | grep nerd | tr '\n' ' ' )
 ```
 
-Pipe! Composition! Joy! 
+Pipe! Composition! Joy!
 
 ![](https://media.giphy.com/media/H01rQOhJLjyak/giphy.gif)
 
