@@ -1,4 +1,4 @@
-# Homebrew: Search, multiple installation one-liner
+# Homebrew: Search, install all matches, in one-liner
 
 ---
 
@@ -78,6 +78,4 @@ Pipe! Composition! Joy!
 ![](https://media.giphy.com/media/H01rQOhJLjyak/giphy.gif)
 
 _La voie Unix!_
-
-
 
