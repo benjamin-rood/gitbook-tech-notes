@@ -73,7 +73,7 @@ Now we just need to pass the result to `brew install`:
 brew install $( brew cask search font | grep nerd | tr '\n' ' ' )
 ```
 
-Pipe! Composition! Joy!
+Pipes! Composition! Joy!
 
 ![](https://media.giphy.com/media/H01rQOhJLjyak/giphy.gif)
 
