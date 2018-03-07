@@ -5,7 +5,7 @@
 #### Syntax:
 
 ```
-brew install $(brew search my-search-term | grep my-filter-term | tr '\n' ' ')
+brew install $( brew search my-search-term | grep my-filter-term | tr '\n' ' ' )
 ```
 
 vs
