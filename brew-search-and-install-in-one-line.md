@@ -70,7 +70,7 @@ font-3270-nerd-font font-3270-nerd-font-mono font-anonymouspro-nerd-font font-an
 Now we just need to pass the result to `brew install`:
 
 ```
-brew install $(brew cask search font | grep nerd | tr '\n' ' ' )
+brew install $( brew cask search font | grep nerd | tr '\n' ' ' )
 ```
 
 Pipe! Composition! Joy!
