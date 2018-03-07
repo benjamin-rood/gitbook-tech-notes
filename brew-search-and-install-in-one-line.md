@@ -1,22 +1,36 @@
-# Homebrew: Search, install one-liner
+# Homebrew: Search, multiple installation one-liner
 
 ---
 
 #### Syntax:
 
 ```
-brew install $(brew search my-search-term | grep my-filter-term | tr '\n' ' ') 
+brew install $(brew search my-search-term | grep my-filter-term | tr '\n' ' ')
 ```
+
+vs
 
 ```
 brew search x | grep y > install_list.txt
 brew install < install_list.txt
 ```
 
+vs
+
+```
+brpro ➜  ~ brew search x
+==> Searching local taps...
+x ✔                                     xy                                xeme
+(...)
+==> Searching taps on GitHub...
+caskroom/something/xylophone            caskroom/somethingelse/xanthous
+(...)
+brpro ➜  ~ brew install xeme
+```
+
 ---
 
-  
-Yesterday I wanted to install all the Nerd Fonts not currently on my machine in one go. 
+Yesterday I wanted to install all the Nerd Fonts not currently on my machine in one go.
 
 `brew cask search fonts` will give multiple rows in results – similar to the default output from `ls` :
 
@@ -64,6 +78,4 @@ Pipe! Composition! Joy!
 ![](https://media.giphy.com/media/H01rQOhJLjyak/giphy.gif)
 
 The Unix Way.
-
-
 
