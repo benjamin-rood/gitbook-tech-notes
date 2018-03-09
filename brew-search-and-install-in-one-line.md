@@ -8,14 +8,14 @@
 brew install $( brew search my-search-term | grep my-filter-term | tr '\n' ' ' )
 ```
 
-vs
+vs.
 
 ```
 brew search x | grep y > install_list.txt
 brew install < install_list.txt
 ```
 
-vs
+vs.
 
 ```
 brpro ➜  ~ brew search x
@@ -26,6 +26,12 @@ x ✔                                     xy                                xeme
 caskroom/something/xylophone            caskroom/somethingelse/xanthous
 (...)
 brpro ➜  ~ brew install xeme
+```
+
+_Alternative \(using awk\):_
+
+```
+brew search x | awk '/inclusion string/ && !/exclusion string/' | tr '\n' ' ' )
 ```
 
 ---
@@ -78,4 +84,20 @@ Pipes! Composition! Joy!
 ![](https://media.giphy.com/media/H01rQOhJLjyak/giphy.gif)
 
 _La voie Unix!_
+
+---
+
+#### Postscript
+
+_Negative \(exclusion\) filtering:_
+
+```
+(some command) | grep 'include string' | grep -v 'exclude string'
+```
+
+```
+(some command) | awk '/include string/ && !/exclude string/'
+```
+
+
 
