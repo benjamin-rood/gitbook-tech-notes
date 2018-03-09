@@ -87,9 +87,7 @@ _La voie Unix!_
 
 ---
 
-#### Postscript
-
-_Negative \(exclusion\) filtering:_
+#### Postscript – _Negative \(exclusion\) filtering:_
 
 ```
 (some command) | grep 'include string' | grep -v 'exclude string'
