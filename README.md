@@ -12,5 +12,5 @@ I always have to do things the hard way, and I have a rather useless memory. Thi
 Quelque chose à propos des oranges
 ```
 
-
+![](/assets/D.R. & Quinch Go To Hollywood.jpg)
 
