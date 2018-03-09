@@ -8,14 +8,14 @@
 brew install $( brew search my-search-term | grep my-filter-term | tr '\n' ' ' )
 ```
 
-vs.
+_vs._
 
 ```
 brew search x | grep y > install_list.txt
 brew install < install_list.txt
 ```
 
-vs.
+_vs._
 
 ```
 brpro ➜  ~ brew search x
