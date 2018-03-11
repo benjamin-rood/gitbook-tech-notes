@@ -20,7 +20,9 @@ Block math:
 $$
 \int_{-\infty}^\infty g(x) dx
 $$
-You can also use the "double-dollars" shortcut `$$`: So, `$$a \ne 0$$` $$\mapsto$$ $$a \ne 0$$, for example.
+
+
+You can also use the "double-dollars" shortcut. So, `$$a \ne 0$$` $$\mapsto$$ $$a \ne 0$$, for example.
 
 ```
 Block math:
