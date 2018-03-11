@@ -4,14 +4,23 @@ You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.
 
 ### Usage
 
-```
 Using the templating syntax:
-{% math %}\int_{-\infty}^\infty g(x) dx{% endblock %}
 
-Inline math: $$\int_{-\infty}^\infty g(x) dx$$
+```
+Inline math: {% math %}\int_{-\infty}^\infty g(x) dx{% endblock %}
+
+Block math:
+
+{% math %}
+\int_{-\infty}^\infty g(x) dx
+{% endblock %}
 ```
 
 
+$$
+\int_{-\infty}^\infty g(x) dx
+$$
+You can also use the "double-dollars" shortcut `$$`: So, `$$a \ne 0$$` $$\mapsto$$ $$a \ne 0$$, for example.
 
 ```
 Block math:
@@ -20,14 +29,6 @@ $$
 \int_{-\infty}^\infty g(x) dx
 $$
 ```
-
-
-$$
-\int_{-\infty}^\infty g(x) dx
-$$
-
-
-You can also use the shortcut `$$`: So, `$$a \ne 0$$` $$\mapsto$$ $$a \ne 0$$, for example.
 
 #### Examples
 
