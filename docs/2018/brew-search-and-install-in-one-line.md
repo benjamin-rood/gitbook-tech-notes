@@ -12,7 +12,7 @@ _vs._
 
 ```
 brew search x | grep y > install_list.txt
-brew install < install_list.txt
+brew install $(< install_list.txt)
 ```
 
 _vs._
