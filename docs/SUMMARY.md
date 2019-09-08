@@ -11,3 +11,7 @@
 * [Defining Methods](2018/methods.md)
 * [Using KaTeX for Math](2018/katex.md)
 
+## 2019
+
+* [Remapping caps lock](2019/r.md)
+
