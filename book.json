@@ -3,7 +3,7 @@
     "plugins": [ "theme-api", "katex", "custom-js-css" ],
     "pluginsConfig": {
         "custom-js-css": {
-            "css": [ "./styles.css"]
+            "css": [ "./docs/styles.css"]
         },
         "theme-api": {
             "languages": [
