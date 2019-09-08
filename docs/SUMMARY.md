@@ -13,5 +13,5 @@
 
 ## 2019
 
-* [Remapping caps lock](2019/r.md)
+* [Remapping caps lock](docs/2019/remapping-caps-lock.md)
 
