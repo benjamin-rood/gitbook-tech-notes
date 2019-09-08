@@ -81,5 +81,6 @@ Toggle caps by pressing both left and right <kbd>shift</kbd> keys:
 - https://www.howtogeek.com/194705/how-to-disable-or-reassign-the-caps-lock-key-on-any-operating-system/
 - https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
 
+<br>
 
 
