@@ -4,7 +4,7 @@
 
 #### Overview
 
-Print current modifiers with `xmodmap`:
+Print current modifiers with the `xmodmap` tool:
 
     xmodmap:  up to 4 keys per modifier, (keycodes in parentheses):
 
