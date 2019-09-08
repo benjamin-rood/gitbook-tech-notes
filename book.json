@@ -1,6 +1,6 @@
 {
     "root": "./docs",
-    "plugins": [ "theme-api", "katex" ],
+    "plugins": [ "theme-api", "katex", "custom-js-css" ],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
