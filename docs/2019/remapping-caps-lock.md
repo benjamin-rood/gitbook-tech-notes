@@ -2,7 +2,7 @@
 
 ---
 
-## Overview
+### Overview
 
 Print current modifiers with `xmodmap`:
 
@@ -24,11 +24,11 @@ Clear caps lock enitrely:
     xmodmap -e "clear Lock"
 
 
-## Using an .Xmodmap file
+### Using an .Xmodmap file
 
 Some configurations require multiple commands to `xmodmap`. To make this easier we can define a file for `xmodmap` to read each time you log into your OS.
 
-#### Example: Mapping <kbd>Hyper</kbd> to <kbd>Caps Lock</kbd> 
+For example, let's make <kbd>hyper</kbd> available to us by mapping it to the now-available <kbd>caps lock</kbd> key.
 
 Add the following to a file at `~/.Xmodmap` :
 
@@ -49,7 +49,7 @@ Execute with `xmodmap ~/.Xmodmap`
 
 ## Caps without the 'caps lock' key
 
-Toggle caps by pressing both left and right <kbd>Shift</kbd> keys:
+Toggle caps by pressing both left and right <kbd>shift</kbd> keys:
 
     setxkbmap -option "shift:both_capslock"
 
