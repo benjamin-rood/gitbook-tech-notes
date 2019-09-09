@@ -1,4 +1,4 @@
-# Remapping caps lock
+# Remapping <kbd>caps lock</kbd>
 
 ---
 
@@ -48,16 +48,14 @@ Add the following to a file at `~/.Xmodmap` :
     ! Set mod3 to `caps lock` = `Hyper` key
     add mod3 = Hyper_L
     
-Execute with `$ xmodmap ~/.Xmodmap`, then check the state of the modifiers:
-
-    xmodmap:  up to 3 keys per modifier, (keycodes in parentheses):
+Execute with `$ xmodmap ~/.Xmodmap`, then check the current state of the modifiers:
     
     shift       Shift_L (0x32),  Shift_R (0x3e)
-    lock      
+    lock                                           <<< Good, nothing assigned!
     control     Control_L (0x25),  Control_R (0x69)
     mod1        Alt_L (0x40),  Meta_L (0xcd)
     mod2        Num_Lock (0x4d)
-    mod3        Hyper_L (0x42),  Hyper_L (0xcf)
+    mod3        Hyper_L (0x42),  Hyper_L (0xcf)    <<< Success!
     mod4        Super_L (0x85),  Super_R (0x86),  Super_L (0xce)
     mod5        ISO_Level3_Shift (0x5c),  Mode_switch (0xcb)
     
@@ -66,6 +64,7 @@ Hooray! More chords for Emacs fun.
 
 
 ---
+
 
 #### Alternate ways of enabling Caps Lock
 
@@ -76,11 +75,12 @@ Toggle caps by pressing both left and right <kbd>shift</kbd> keys:
 
 ---
 
+
 #### Links
 
 - https://www.howtogeek.com/194705/how-to-disable-or-reassign-the-caps-lock-key-on-any-operating-system/
 - https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
 
 <br>
-
+<br>
 
