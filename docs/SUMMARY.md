@@ -13,5 +13,6 @@
 
 ## 2019
 
+* [Swapping alt and super](2019/swapping-alt-and-super.md)
 * [Remapping caps lock](2019/remapping-caps-lock.md)
 
