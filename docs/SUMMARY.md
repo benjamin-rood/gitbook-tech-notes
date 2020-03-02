@@ -18,7 +18,7 @@
 
 ## 2020
 
-* [Managing disks from terminal](https://legacy.gitbook.com/book/benjamin-rood/punching-myself-in-the-face/edit#)
+* [Managing disks from terminal](/docs/2020/managing-disks-from-terminal.md)
 
 
 
