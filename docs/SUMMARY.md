@@ -3,6 +3,7 @@
 ## Overview
 
 * [Quelque chose à propos des oranges](README.md)
+* [Managing disks from terminal](managing-disks-from-terminal.md)
 
 ## 2018
 
